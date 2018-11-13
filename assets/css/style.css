@@ -74,16 +74,19 @@ h1 {
     
 }
 
-.photo {
+.photos {
     width: 200px;
     Height: 200px;
+    margin-left: 10px;
+    float: left;
+    margin-right: 25px;
 }
 
 h2{
     text-align: left;
     margin: 15px;
 }
-#photo{
+#ph{
     position: relative;
     float: left;
     border: 1px solid black;
@@ -127,6 +130,9 @@ footer {
     width: 930px;
 }
 
+.main {
+    width: 650px;
+}
 .work {
     width: 250px;
     position: relative;
@@ -136,6 +142,10 @@ footer {
 
 .work img {
     width: 100%;
+    float: left;
+    margin-right: 25px;
+    border: 0 none;
+    opacity: .8;
 }
 
 .work h3 {
